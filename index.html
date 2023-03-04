@@ -1,209 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
+	<title>Session Artists for your dream project.</title>
 	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230304152732">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Верстка «SESSIONartist»</title>
 </head>
 
 <body>
-	<div class="rootpage">
-		<h1>Верстка сайта <span>«SESSIONartist»</span></h1>
-		<div class="rootpage__info">
-			Описание проекта
-		</div>
-		<h2>Готовые страницы:</h2>
-		<ol class="rootpage__list page">
-			<li><a target="_blank" href="home.html">Главная</a></li>
-			<li><a target="_blank" href="catalog.html">Каталог</a></li>
-			<li><a target="_blank" href="service-profile.html">Сервисный профиль</a></li>
-			<li><a target="_blank" href="user-profile.html">Пользовательский профиль</a></li>
-		</ol>
-		<h2>Попапы:</h2>
-		<ol class="rootpage__list popup">
-			<li><a target="_blank" href="home.html#popup-login">Логин</a></li>
-			<li><a target="_blank" href="home.html#popup-register">Регистрация</a></li>
-		</ol>
-		<div class="rootpage__tnx">
-			<h2>Спасибо за заказ!</h2>
-			<p>Буду рад хорошему отклику.</p>
-			<p>Обращайтесь еще!</p>
-		</div>
-		<div class="rootpage__contacts">
-			<h2>Мои контакты:</h2>
-			<p>Почта: <a href="mailto:khaidkulov.daler@icloud.com">khaidkulov.daler@icloud.com</a></p>
-			<p>Телефон: <a href="tel:+998906054181">+998 90 605 41 81</a></p>
-			<p>Соц. сети: <a href="t.me/RastaFariLife">Телеграм</a></p>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo"><img src="img/logo.svg" alt="Logo"></div>
+				<div class="header__search">
+					<form action="" class=" search-header">
+						<input autocomplete="off" type="text" name="form[]" data-require placeholder="Search" class="search-header__input input">
+						<button type="submit" class="search-header__button ">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M19.7256 18.9889L15.2097 14.4538C16.5957 12.8665 17.3604 10.8581 17.3604 8.72728C17.3604 6.40138 16.4584 4.21493 14.8209 2.57041C13.1834 0.925893 11.0062 0.0200195 8.69023 0.0200195C6.37422 0.0200195 4.19708 0.925893 2.55956 2.57041C0.922038 4.21493 0.0200195 6.40138 0.0200195 8.72728C0.0200195 11.0532 0.922038 13.2396 2.55956 14.8842C4.19708 16.5287 6.37422 17.4345 8.69023 17.4345C10.812 17.4345 12.8118 16.6665 14.3923 15.2746L18.9082 19.8098C19.0211 19.9231 19.169 19.9798 19.3169 19.9798C19.4648 19.9798 19.6127 19.9231 19.7256 19.8098C19.9513 19.583 19.9513 19.2157 19.7256 18.9889ZM3.3769 14.0633C1.95783 12.6379 1.17605 10.7428 1.17605 8.72728C1.17605 6.71175 1.95783 4.81667 3.3769 3.39125C4.79626 1.96612 6.68327 1.18099 8.69023 1.18099C10.6972 1.18099 12.5842 1.96612 14.0036 3.39125C15.4226 4.81667 16.2044 6.71175 16.2044 8.72728C16.2044 10.7428 15.4226 12.6379 14.0036 14.0633C12.5842 15.4885 10.6972 16.2736 8.69023 16.2736C6.68327 16.2736 4.79626 15.4885 3.3769 14.0633Z" fill="black" />
+							</svg>
+						</button>
+					</form>
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<div class="menu__action">
+							<a href="" data-popup=".popup-login" class="menu__login button">Login in</a>
+							<a href="" data-popup=".popup-register" class="menu__register button">Register</a>
+						</div>
+					</nav>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__category category">
+				<div class="category__container">
+					<h1 class="category__title">Session Artists for your dream project.</h1>
+					<div class="category__text">Select Category</div>
+					<div class="category__buttons">
+						<a href="catalog.html" class="category__button category__button-find">Find an artist</a>
+						<a href="catalog.html" class="category__button category__button-seller">Become seller</a>
+					</div>
+					<div class="category__slider swiper">
+						<div class="category__wrapper swiper-wrapper">
+							<div class="category__slide swiper-slide">
+								<a href="catalog.html" class="category__link">
+									<picture><source srcset="img/category/01.webp" type="image/webp"><img src="img/category/01.jpg" alt="Category image" class="category__image"></picture>
+									<div class="category__chapter">Guitar.</div>
+								</a>
+							</div>
+							<div class="category__slide swiper-slide">
+								<a href="catalog.html" class="category__link">
+									<picture><source srcset="img/category/02.webp" type="image/webp"><img src="img/category/02.jpg" alt="Category image" class="category__image"></picture>
+									<div class="category__chapter">Piano.</div>
+								</a>
+							</div>
+							<div class="category__slide swiper-slide">
+								<a href="catalog.html" class="category__link">
+									<picture><source srcset="img/category/03.webp" type="image/webp"><img src="img/category/03.jpg" alt="Category image" class="category__image"></picture>
+									<div class="category__chapter">Drums.</div>
+								</a>
+							</div>
+							<div class="category__slide swiper-slide">
+								<a href="catalog.html" class="category__link">
+									<picture><source srcset="img/category/04.webp" type="image/webp"><img src="img/category/04.jpg" alt="Category image" class="category__image"></picture>
+									<div class="category__chapter">Vocals.</div>
+								</a>
+							</div>
+							<div class="category__slide swiper-slide">
+								<a href="catalog.html" class="category__link">
+									<picture><source srcset="img/category/05.webp" type="image/webp"><img src="img/category/05.jpg" alt="Category image" class="category__image"></picture>
+									<div class="category__chapter">Category1.</div>
+								</a>
+							</div>
+							<div class="category__slide swiper-slide">
+								<a href="catalog.html" class="category__link">
+									<picture><source srcset="img/category/06.webp" type="image/webp"><img src="img/category/06.jpg" alt="Category image" class="category__image"></picture>
+									<div class="category__chapter">Category2.</div>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-scrollbar"></div>
+					</div>
+				</div>
+			</section>
+			<div class="page__social social">
+				<div class="social__container">
+					<div class="social__title">Social.</div>
+					<div class="social__items">
+						<a href="" class="social__item"><img src="img/social/instagram.svg" alt="Instagram icon"></a>
+						<a href="" class="social__item"><img src="img/social/facebook.svg" alt="Facebook icon"></a>
+						<a href="" class="social__item"><img src="img/social/twitter.svg" alt="Twitter icon"></a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<ul class="footer__list footer__list-left">
+						<li class="footer__item"><a href="" class="footer__link">Modile App</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Community</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Company</a></li>
+					</ul>
+					<div class="footer__logo"><img src="img/footer-logo.svg" alt=""></div>
+					<ul class="footer__list footer__list-right">
+						<li class="footer__item"><a href="" class="footer__link">Help desk</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Blog</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Resources</a></li>
+					</ul>
+				</div>
+				<div class="footer__copy">© 2022 Session artist All rights reserved</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-register" aria-hidden="true" class="popup popup-register">
+		<div class="popup-wrapper popup-register__wrapper">
+			<div class="popup-content popup-register__content">
+				<button data-close type="button" class="popup-register__close"></button>
+				<div class="popup-register__title">Register</div>
+				<form action="" class="popup-register__form form-register">
+					<div class="form-register__inputs">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter your email" class="form-register__input">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Choose a Username" class="form-register__input">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Choose a Password" class="form-register__input">
+					</div>
+					<button type="submit" class="form-register__button">Join</button>
+				</form>
+			</div>
 		</div>
 	</div>
+	<div id="popup-login" aria-hidden="true" class="popup popup-login">
+		<div class="popup-wrapper popup-login__wrapper">
+			<div class="popup-content popup-login__content">
+				<button data-close type="button" class="popup-login__close"></button>
+				<div class="popup-login__title">Log in</div>
+				<form action="" class="popup-login__form form-register">
+					<div class="form-login__inputs">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter your email" class="form-login__input">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Choose a Password" class="form-login__input">
+					</div>
+					<button type="submit" class="form-login__button">Log in</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230304152732"></script>
 </body>
-<style>
-	@charset "UTF-8";
-	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
-
-	*,
-	*::before,
-	*::after {
-		padding: 0px;
-		margin: 0px;
-		border: 0px;
-		box-sizing: border-box;
-	}
-
-	html,
-	body {
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		min-width: 320px;
-		width: 100%;
-		color: #000;
-	}
-
-	body {
-		background-color: #fff;
-		font-family: Montserrat;
-		font-size: 100%;
-		line-height: 1;
-		font-size: 1rem;
-	}
-
-	a {
-		text-decoration: underline;
-		color: #007163;
-	}
-
-	a:visited {
-		text-decoration: underline;
-		color: #007163;
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	ul li {
-		list-style: none;
-	}
-
-	img {
-		vertical-align: top;
-	}
-
-	.wrapper {
-		width: 100%;
-		min-height: 100%;
-		overflow: hidden;
-	}
-
-	.rootpage {
-		padding: 30px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.rootpage h1 span {
-		color: #A67C52;
-	}
-
-	@media (max-width: 767px) {
-		.rootpage {
-			padding: 30px 15px;
-		}
-	}
-
-	h1 {
-		color: #007163;
-		font-size: 2.5rem;
-		margin: 0px 0px 1.25rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h1 {
-			font-size: 1.85rem;
-			margin: 0px 0px 1.25rem 0px;
-		}
-	}
-
-	h2 {
-		color: #007163;
-		font-size: 1.25rem;
-		margin: 0px 0px 1rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h2 {
-			font-size: 1.125rem;
-			margin: 0px 0px 1rem 0px;
-		}
-	}
-
-	.rootpage__info {
-		line-height: 140%;
-		margin: 0px 0px 1.5rem 0px;
-	}
-
-	.rootpage__list {
-		margin: 0px 0px 2.25rem 1.25rem;
-	}
-
-	.rootpage__list li:not(:last-child) {
-		margin: 0px 0px 15px 0px;
-	}
-
-	.rootpage__contacts,
-	.rootpage__tnx {
-		border-radius: 200px;
-		padding: 20px 65px;
-		line-height: 140%;
-	}
-
-	.rootpage__contacts h2 {
-		color: #A67C52;
-	}
-
-	@media (max-width: 767px) {
-
-		.rootpage__contacts,
-		.rootpage__tnx {
-			border-radius: 40px;
-			padding: 20px;
-		}
-	}
-
-	.rootpage__contacts {
-		background: rgba(166, 124, 82, 0.1);
-		border: 1px solid #A67C52;
-
-	}
-
-	.rootpage__contacts a {
-		color: #000;
-	}
-
-	.rootpage__tnx {
-		background: rgba(0, 113, 99, 0.1);
-		border: 1px solid #007163;
-		margin: 0px 0px 1rem 0px;
-	}
-
-	.page {
-		color: #A67C52;
-	}
-
-	.page a {
-		color: #007163;
-	}
-
-	.popup {
-		color: #007163;
-	}
-
-	.popup a {
-		color: #A67C52;
-	}
-</style>
 
 </html>
